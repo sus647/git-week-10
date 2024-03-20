@@ -23,7 +23,7 @@ class Point
     return y;
   }
 
-  public void SetX(double x) // Use setter methods for modification
+  public void SetX(double x) 
   {
     this.x = x;
   }
@@ -55,7 +55,7 @@ class Circle
     this.radius = radius;
   }
 
-  public double CalculatePerimeter() // Use more descriptive method names
+  public double CalculatePerimeter()
   {
     return 2 * Math.PI * radius;
   }
